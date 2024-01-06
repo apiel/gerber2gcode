@@ -6,8 +6,8 @@ const { plot } = require("@tracespace/plotter");
 const parser = createParser();
 parser.feed(`
 G04 Layer: BoardOutlineLayer*
-G04 EasyEDA v6.5.39, 2024-01-05 15:05:44*
-G04 a42c0d9bf09742e9984296bc18b6f20a,24315905b9734375b2ccc5c6aeea7757,10*
+G04 EasyEDA v6.5.39, 2024-01-06 15:16:36*
+G04 1c44ad033872445e8fe6e2ebb443a3f3,24315905b9734375b2ccc5c6aeea7757,10*
 G04 Gerber Generator version 0.2*
 G04 Scale: 100 percent, Rotated: No, Reflected: No *
 G04 Dimensions in inches *
@@ -44,60 +44,12 @@ X0Y0D01*
 D10*
 G75*
 G01
-X1367710Y2350000D02*
-G03X1367710Y2350000I-167710J0D01*
-G75*
-G01
-X2392710Y2350000D02*
-G03X2392710Y2350000I-167710J0D01*
-G75*
-G01
-X3417710Y2350000D02*
-G03X3417710Y2350000I-167710J0D01*
-G75*
-G01
 X4442710Y2350000D02*
 G03X4442710Y2350000I-167710J0D01*
 G75*
 G01
-X4442710Y1350000D02*
-G03X4442710Y1350000I-167710J0D01*
-G75*
-G01
-X3417710Y1350000D02*
-G03X3417710Y1350000I-167710J0D01*
-G75*
-G01
-X2392710Y1350000D02*
-G03X2392710Y1350000I-167710J0D01*
-G75*
-G01
-X1367710Y1350000D02*
-G03X1367710Y1350000I-167710J0D01*
-G75*
-G01
-X2392710Y350000D02*
-G03X2392710Y350000I-167710J0D01*
-G75*
-G01
-X1360080Y350000D02*
-G03X1360080Y350000I-160080J0D01*
-G75*
-G01
-X3417710Y350000D02*
-G03X3417710Y350000I-167710J0D01*
-G75*
-G01
 X4442710Y350000D02*
 G03X4442710Y350000I-167710J0D01*
-G75*
-G01
-X4380900Y1850000D02*
-G03X4380900Y1850000I-55900J0D01*
-G75*
-G01
-X4380900Y850000D02*
-G03X4380900Y850000I-55900J0D01*
 G75*
 G01*
 X5200000Y2400000D02*
@@ -121,11 +73,16 @@ X6600000Y450000I842J225615D01*
 
 %LPD*%
 M02*
+
 `);
 const tree = parser.results();
 
-console.log(tree);
+// console.log(tree.children);
 // console.log(JSON.stringify(tree, null, 2));
+
+for (const child of tree.children) {
+  console.log(child);
+}
 
 const plotResult = plot(tree);
 console.log(plotResult);
@@ -140,31 +97,32 @@ console.log(plotResult);
 //     radius: 0.16771
 //   },
 
-let last = [9999999, 9999999];
 for (const child of plotResult.children) {
   console.log("----");
   console.log(child.segments);
+}
 
-//   for (const segment of child.segments) {
-//     if (segment.type === "line") {
-//       if (last[0] !== segment.start[0] || last[1] !== segment.start[1]) {
-//         console.log(`G0 X${segment.start[0]} Y${segment.start[1]}`);
-//       }
-//       console.log(`G1 X${segment.end[0]} Y${segment.end[1]}`);
-//     } else if (segment.type === "arc") {
-//       // console.log(`G2 X${segment.end[0] - 0.00001} Y${segment.end[1]} R${-segment.radius}`);
+let last = [9999999, 9999999];
+for (const child of plotResult.children) {
+  // console.log("----");
+  // console.log(child.segments);
 
-//       console.log(
-//         `G0 X${segment.center[0]} Y${segment.center[1] + segment.radius}`
-//       );
-//       console.log(
-//         `G2 X${segment.center[0] - 0.00001} Y${
-//           segment.center[1] + segment.radius
-//         } R${-segment.radius}`
-//       );
-//     }
-//     last = segment.end;
-//   }
+  for (const segment of child.segments) {
+    if (segment.type === "line") {
+      if (last[0] !== segment.start[0] || last[1] !== segment.start[1]) {
+        console.log(`\nG0 X${segment.start[0]} Y${segment.start[1]}`);
+      }
+      console.log(`G1 X${segment.end[0]} Y${segment.end[1]}`);
+    } else if (segment.type === "arc") {
+      // console.log(`G2 X${segment.end[0] - 0.00001} Y${segment.end[1]} R${-segment.radius}`);
+
+      console.log(`\nG0 X${segment.start[0]} Y${segment.start[1]}`);
+      console.log(
+        `G3 X${segment.end[0]} Y${segment.end[1] - 0.00001} R${segment.radius}`
+      );
+    }
+    last = segment.end;
+  }
 }
 
 // G0 X4.975 Y2.4
