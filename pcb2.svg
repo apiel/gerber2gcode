@@ -1,0 +1,353 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121.285mm" height="72.39mm"
+    viewBox="4010 3118 477.5 285">
+    <title></title>
+    <style type="text/css">
+        *[layerid="1"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="2"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="3"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="4"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="5"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="6"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="7"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="8"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="9"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="10"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="11"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="12"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="13"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="14"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="15"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="19"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="21"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="22"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="23"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="24"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="25"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="26"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="27"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="28"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="29"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="30"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="31"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="32"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="33"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="34"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="35"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="36"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="37"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="38"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="39"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="40"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="41"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="42"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="43"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="44"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="45"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="46"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="47"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="48"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="49"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="50"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="51"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="52"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="99"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="100"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="101"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="Hole"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[layerid="DRCError"] {
+            stroke: #000000;
+            fill: #000000;
+        }
+
+        *[fill="none"] {
+            fill: none;
+        }
+
+        *[stroke="none"] {
+            stroke: none;
+        }
+
+        path,
+        polyline,
+        polygon,
+        line {
+            stroke-linecap: round;
+        }
+
+        g[c_partid="part_pad"][layerid="1"] ellipse:not([c_etype="pad_outer"]) {
+            fill: #000000;
+        }
+
+        g[c_partid="part_pad"][layerid="1"] polygon:not([c_etype="pad_outer"]) {
+            fill: #000000;
+        }
+
+        g[c_partid="part_pad"][layerid="1"] polyline:not([c_etype="pad_outer"]) {
+            stroke: #000000;
+        }
+
+        g[c_partid="part_pad"][layerid="2"] ellipse:not([c_etype="pad_outer"]) {
+            fill: #000000;
+        }
+
+        g[c_partid="part_pad"][layerid="2"] polygon:not([c_etype="pad_outer"]) {
+            fill: #000000;
+        }
+
+        g[c_partid="part_pad"][layerid="2"] polyline:not([c_etype="pad_outer"]) {
+            stroke: #000000;
+        }
+
+        g[c_partid="part_pad"][layerid="11"] ellipse:not([c_etype="pad_outer"]) {
+            fill: #000000;
+        }
+
+        g[c_partid="part_pad"][layerid="11"] polygon:not([c_etype="pad_outer"]) {
+            fill: #000000;
+        }
+
+        g[c_partid="part_pad"][layerid="11"] polyline:not([c_etype="pad_outer"]) {
+            stroke: #000000;
+        }
+    </style>
+    <polyline points="4022.5 3393 4020 3393" stroke-width="0.5" stroke-linecap="round" fill="none" layerid="10"
+        net="S$47384" id="gge64114" locked="0" />
+    <polyline points="4020 3393 4020 3388.43 4020 3128 4477.5 3128 4477.5 3393 4022.5 3393" stroke-width="0.5"
+        stroke-linecap="round" fill="none" layerid="10" net="S$47384" id="gge64108" locked="0" />
+    <circle cx="4140" cy="3158" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64133" locked="0"
+        net="S$64134" transformarc="circle_gge64137,circle_gge64140" />
+    <circle cx="4242.5" cy="3158" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64149" locked="0"
+        net="S$64150" transformarc="circle_gge64153,circle_gge64156" />
+    <circle cx="4345" cy="3158" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64181" locked="0"
+        net="S$64182" transformarc="circle_gge64185,circle_gge64188" />
+    <circle cx="4447.5" cy="3158" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64197" locked="0"
+        net="S$64198" transformarc="circle_gge64201,circle_gge64204" />
+    <circle cx="4447.5" cy="3258" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64213" locked="0"
+        net="S$64214" transformarc="circle_gge64217,circle_gge64220" />
+    <circle cx="4345" cy="3258" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64229" locked="0"
+        net="S$64230" transformarc="circle_gge64233,circle_gge64236" />
+    <circle cx="4242.5" cy="3258" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64245" locked="0"
+        net="S$64246" transformarc="circle_gge64249,circle_gge64252" />
+    <circle cx="4140" cy="3258" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64261" locked="0"
+        net="S$64262" transformarc="circle_gge64265,circle_gge64268" />
+    <circle cx="4242.5" cy="3358" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64293" locked="0"
+        net="S$64294" transformarc="circle_gge64297,circle_gge64300" />
+    <circle cx="4140" cy="3358" r="16.0078" stroke-width="0.5" fill="none" layerid="10" id="gge64309" locked="0"
+        net="S$64310" transformarc="circle_gge64313,circle_gge64316" />
+    <circle cx="4345" cy="3358" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64325" locked="0"
+        net="S$64326" transformarc="circle_gge64329,circle_gge64332" />
+    <circle cx="4447.5" cy="3358" r="16.7705" stroke-width="0.5" fill="none" layerid="10" id="gge64341" locked="0"
+        net="S$64342" transformarc="circle_gge64345,circle_gge64348" />
+    <circle cx="4452.5" cy="3208" r="5.5902" stroke-width="0.5" fill="none" layerid="10" id="gge64357" locked="0"
+        net="S$64358" transformarc="circle_gge64361,circle_gge64364" />
+    <circle cx="4452.5" cy="3308" r="5.5902" stroke-width="0.5" fill="none" layerid="10" id="gge64405" locked="0"
+        net="S$64406" transformarc="circle_gge64409,circle_gge64412" />
+</svg>
